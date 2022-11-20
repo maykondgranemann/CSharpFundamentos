@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Program
+    internal class Pessoa
     {
-        static void Main(string[] args)
-        {
-            //Aula1.Executar();
-            Aula2.Executar();
-        }
+        public string Nome { get; set; }
+        public string Sobrenome { get; set; }
+        public string Cpf { get; set; }
     }
 }
