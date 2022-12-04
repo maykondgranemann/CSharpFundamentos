@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp", "WindowsF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroBebidas", "CadastroBebidas\CadastroBebidas.csproj", "{EA033323-E080-47C6-8FE2-C1EE94DE5B47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroProduto", "CadastroProduto\CadastroProduto.csproj", "{7A0E872D-C10F-45D6-A0B7-0C73AA5ED572}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EA033323-E080-47C6-8FE2-C1EE94DE5B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA033323-E080-47C6-8FE2-C1EE94DE5B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA033323-E080-47C6-8FE2-C1EE94DE5B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0E872D-C10F-45D6-A0B7-0C73AA5ED572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0E872D-C10F-45D6-A0B7-0C73AA5ED572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0E872D-C10F-45D6-A0B7-0C73AA5ED572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0E872D-C10F-45D6-A0B7-0C73AA5ED572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,9 @@
+Cadastro de Produtos
+- Criar uma classe produto com as propriedades; Id, nome, tipo e valor
+- Criar um projeto WindowsForms
+- Adicionar a referencia do Projeto Data no projeto WindowsForms
+- Criar uma tela de cadastro de produtos com os campos iguais as propriedade da Classe Produto
+- Adicionar a tela os botoes limpar e salvar
+- Criar a ação de limpar ao botao
+- Criar a ação de cadastrar ao botao (deve adicionar uma Instancia de produto a uma lista de Produto)
+- Criar, na tela de cadastro, uma listagem de produtos utilizando um DataGridView
