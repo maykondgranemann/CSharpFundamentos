@@ -24,6 +24,36 @@ Delete - Apagar dado   //DELETE
 
 
 
+Atividade 2
+- Criar uma aplicação WEB MVC(Model-View-Controller)
+- Dentro da pasta Models, criar o model de Bebidas com as propriedades(id, marca, tipo e valor)
+- Dentro da pasta Controllers, criar uma controller BebidasController
+- Criar uma view para Index
+- Adicionar um novo item de menu na _Layout.cshtml  para acessar a nova controller
+- Criar um metodo(action) do tipo HttpGet para tela de cadastro de Bebidas, 
+- Criar uma tela para a action de create, utilizar template CREATE
+- Criar um metodo do tipo HttpPost para receber os dados de Bebida (model Bebida)
+- Adicionar o model a uma lista de Bebidas do tipo static
+- Criar um metodo do tipo HttpGet para listagem de Bebidas (return da lista)
+- Criar uma view para listagem utilizando o template LIST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
