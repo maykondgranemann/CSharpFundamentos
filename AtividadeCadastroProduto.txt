@@ -6,4 +6,24 @@ Cadastro de Produtos
 - Adicionar a tela os botoes limpar e salvar
 - Criar a ação de limpar ao botao
 - Criar a ação de cadastrar ao botao (deve adicionar uma Instancia de produto a uma lista de Produto)
-- Criar, na tela de cadastro, uma listagem de produtos utilizando um DataGridView
+
+	
+
+MVC
+Estrutura em camadas
+Model = ex. Classes Produto
+View = Visualizacao/ Interfaca grafica com usuario
+Controller = Controlador de ações - comunicao entre View e Model
+
+
+CRUD
+Create - Cadastrar     //POST
+Read - Listando        //GET
+Update - Alterar algo  //PUT / PATCH
+Delete - Apagar dado   //DELETE
+
+
+
+
+
+
