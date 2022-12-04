@@ -39,6 +39,8 @@
             this.bntSalvar = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.lbTitulo = new System.Windows.Forms.Label();
+            this.dgBebidas = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgBebidas)).BeginInit();
             this.SuspendLayout();
             // 
             // lbId
@@ -136,11 +138,20 @@
             this.lbTitulo.TabIndex = 10;
             this.lbTitulo.Text = "Sistema de cadastro de Bebidas";
             // 
+            // dgBebidas
+            // 
+            this.dgBebidas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgBebidas.Location = new System.Drawing.Point(47, 240);
+            this.dgBebidas.Name = "dgBebidas";
+            this.dgBebidas.Size = new System.Drawing.Size(715, 150);
+            this.dgBebidas.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dgBebidas);
             this.Controls.Add(this.lbTitulo);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.bntSalvar);
@@ -154,6 +165,7 @@
             this.Controls.Add(this.lbId);
             this.Name = "Form1";
             this.Text = "Tipo";
+            ((System.ComponentModel.ISupportInitialize)(this.dgBebidas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,6 +184,7 @@
         private System.Windows.Forms.Button bntSalvar;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Label lbTitulo;
+        private System.Windows.Forms.DataGridView dgBebidas;
     }
 }
 
