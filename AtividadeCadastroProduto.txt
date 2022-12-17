@@ -1,0 +1,59 @@
+Cadastro de Produtos
+- Criar uma classe produto com as propriedades; Id, nome, tipo e valor
+- Criar um projeto WindowsForms
+- Adicionar a referencia do Projeto Data no projeto WindowsForms
+- Criar uma tela de cadastro de produtos com os campos iguais as propriedade da Classe Produto
+- Adicionar a tela os botoes limpar e salvar
+- Criar a ação de limpar ao botao
+- Criar a ação de cadastrar ao botao (deve adicionar uma Instancia de produto a uma lista de Produto)
+
+	
+
+MVC
+Estrutura em camadas
+Model = ex. Classes Produto
+View = Visualizacao/ Interfaca grafica com usuario
+Controller = Controlador de ações - comunicao entre View e Model
+
+
+CRUD
+Create - Cadastrar     //POST
+Read - Listando        //GET
+Update - Alterar algo  //PUT / PATCH
+Delete - Apagar dado   //DELETE
+
+
+
+Atividade 2
+- Criar uma aplicação WEB MVC(Model-View-Controller)
+- Dentro da pasta Models, criar o model de Bebidas com as propriedades(id, marca, tipo e valor)
+- Dentro da pasta Controllers, criar uma controller BebidasController
+- Criar uma view para Index
+- Adicionar um novo item de menu na _Layout.cshtml  para acessar a nova controller
+- Criar um metodo(action) do tipo HttpGet para tela de cadastro de Bebidas, 
+- Criar uma tela para a action de create, utilizar template CREATE
+- Criar um metodo do tipo HttpPost para receber os dados de Bebida (model Bebida)
+- Adicionar o model a uma lista de Bebidas do tipo static
+- Criar um metodo do tipo HttpGet para listagem de Bebidas (return da lista)
+- Criar uma view para listagem utilizando o template LIST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
