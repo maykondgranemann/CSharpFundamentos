@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AtividadeEstruturas.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace AtividadeEstruturas
 {
     internal class ViewTelaInicial
     {
-        CrudNomes crudNomes = new CrudNomes();
+        PessoaRepository repository = new PessoaRepository();
         public void ImprimirMenu()
         {
             Console.Clear();
@@ -40,16 +41,31 @@ namespace AtividadeEstruturas
             switch (opcao)
             {
                 case 1:
-                    crudNomes.Cadastrar();
+                    Console.WriteLine("Cadastrando ...");
+                    Console.Write("Digite um nome: ");
+                    string nome = Console.ReadLine();
+                    repository.Cadastrar(nome);
                     break;
                 case 2:
-                    crudNomes.Listar();
+                    Console.WriteLine("Listando Nomes ...");                    
+                    foreach (string item in repository.Listar())
+                    {
+                        Console.WriteLine(item);
+                    }
                     break;
                 case 3:
-                    crudNomes.Alterar2();
+                    Console.WriteLine("Dados salvos:");
+                    int posicao = ListarPorPosicao(repository.Listar());
+                    Console.Write("Digite o novo nome:");
+                    string nomeNovo = Console.ReadLine();
+                    repository.Alterar(posicao, nomeNovo);
+                    Console.WriteLine("Dado alterado com sucesso!");
                     break;
                 case 4:
-                    crudNomes.Deletar();
+                    Console.WriteLine("Deletando ...");
+                    posicao = ListarPorPosicao(repository.Listar());
+                    repository.Deletar(posicao);
+                    Console.WriteLine("Dado deletado com sucesso!");
                     break;
                 default:
                     Console.WriteLine("Opção inválida");
@@ -76,6 +92,17 @@ namespace AtividadeEstruturas
                 }
             }
             return continua;
+        }
+
+        public int ListarPorPosicao(List<string> listaNomes)
+        {
+            for (int i = 0; i < listaNomes.Count; i++)
+            {
+                Console.WriteLine($"{i} - {listaNomes[i]}");
+            }
+            Console.Write("Digite o numero do dado a ser alterardo:");
+            int posicao = Convert.ToInt32(Console.ReadLine());
+            return posicao;
         }
     }
 }

@@ -1,0 +1,9 @@
+ControllerPessoa
+
+1 - Na pasta Controllers, criar uma nova controller de nome PessoaController
+2 - Criar uma nova View(Exibicao) para o metodo Index
+3 - Colocar algum texto na View criada no passo 2
+4 - Ir na página Layout(View->Shared->Layout.cshtml), e alterar o menu na opcao  
+ asp-controller="Pessoa" para abrir a pagina de pessoa
+5 - Deletar a NomeController e a pasta Nome dentro da pasta Views
+6 - Executar a aplicaçao e testar o menu e ver se o texto colocado no passo 3 aparece 
