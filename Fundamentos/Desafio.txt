@@ -1,0 +1,6 @@
+Criar um sistema para cadastro de pessoas:
+- FunÇoes CRUD - Create, Read, Update, Delete
+- Menu
+- Conversão de dados
+- Validação de erro
+
